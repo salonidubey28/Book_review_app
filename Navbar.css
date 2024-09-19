@@ -1,0 +1,28 @@
+/* src/components/Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    /* padding: 1px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+  }
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
